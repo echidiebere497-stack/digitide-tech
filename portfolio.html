@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+  
+    <!-- ,,,,,,,,,,,,,,,,,,,,,,,,, header section ,,,,,,,,,,,,,,,,,, -->
+
+    
+
+<nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <!-- <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo"> -->
+        <span class="self-center text-20 font-semibold whitespace-nowrap dark:text-white">Digitide Tech</span>
+    </a>
+    <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <!-- Anchor Tag as Button -->
+        <a href="contact.html"
+           class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+           Get started
+        </a>
+      
+        <!-- Mobile Menu Button -->
+        <button data-collapse-toggle="navbar-sticky" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+        </button>
+      </div>
+      
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a href="index.html" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page"><i class="bi bi-houses-fill"></i>Home</a>
+        </li>
+        <li>
+          <a href="about.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"><i class="bi bi-file-person-fill"></i>About</a>
+        </li>
+        <li>
+            <a href="services.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"><i class="bi bi-tools"></i>Services</a>
+          </li>
+        <li>
+          <a href="portfolio.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"><i class="bi bi-journal-richtext"></i>Portfolio</a>
+        </li>
+        <li>
+            <a href="contact.html" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"><i class="bi bi-telephone-forward"></i>Contact</a>
+          </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  
+
+    <!-- hero -->
+
+
+
+    <section class="bg-cover bg-no-repeat bg-[url('ds.jpg')] bg-gray-700 bg-blend-multiply">
+        <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+            <h1 class="mb-4 font-extrabold tracking-tight leading-none text-white md:text-xl  lg:text-6xl">Our Portfolio</h1>
+        </div>
+    </section>
+
+
+
+    
+
+<!--,,,,,,,,,,,, Portfolio Section ,,,,,,,,,,,,-->
+
+<section class="max-w-7xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-bold text-center mb-10">My Portfolio</h2>
+  
+    <!-- Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+  
+      <!-- Card 1 -->
+      
+<div class="rounded-lg overflow-hidden shadow-lg group" 
+data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+
+<!-- Image -->
+<img src="p2.jpg" alt="Project Three"
+  class="w-full h-80 transition-transform duration-500 group-hover:scale-105" />
+
+<!-- Content under image -->
+<div class="p-5 bg-gray-800">
+<h3 class="text-xl font-bold text-white mb-3">Project Three</h3>
+<a href="" target="_blank"
+  class="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-gray-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300">
+ View Project
+ <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+         d="M1 5h12m0 0L9 1m4 4L9 9"/>
+ </svg>
+</a>
+</div>
+
+</div>
+
+  
+      <!-- Card 2 -->
+      
+<div class="rounded-lg overflow-hidden shadow-lg group" 
+data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+
+<!-- Image -->
+<img src="p1.jpg" alt="Project Three"
+  class="w-full h-80  transition-transform duration-500 group-hover:scale-105" />
+
+<!-- Content under image -->
+<div class="p-5 bg-gray-800">
+<h3 class="text-xl font-bold text-white mb-3">Project Three</h3>
+<a href="" target="_blank"
+  class="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-gray-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300">
+ View Project
+ <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+         d="M1 5h12m0 0L9 1m4 4L9 9"/>
+ </svg>
+</a>
+</div>
+
+</div>
+
+  
+      <!-- Card 3 -->
+
+<div class="rounded-lg overflow-hidden shadow-lg group" 
+data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+
+<!-- Image -->
+<img src="tailor.jpg" alt="Project Three"
+  class="w-full h-80 transition-transform duration-500 group-hover:scale-105" />
+
+<!-- Content under image -->
+<div class="p-5 bg-gray-800">
+<h3 class="text-xl font-bold text-white mb-3">Project Three</h3>
+<a href="" target="_blank"
+  class="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-gray-600 rounded-lg hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300">
+ View Project
+ <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+         d="M1 5h12m0 0L9 1m4 4L9 9"/>
+ </svg>
+</a>
+</div>
+
+</div>
+</div>
+  </section>
+  
+  
+
+  <!-- ,,,,,,,,,,,,,,,,,,,,,,, Testimonials,,,,,,,,,,,,,,,,,,,,,, -->
+
+<section class="bg-gray-50 py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <!-- Title -->
+      <h2 class="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-10">
+        Testimonials
+      </h2>
+  
+      <!-- Carousel Wrapper -->
+      <div id="testimonial-carousel" class="relative w-full" data-carousel="slide">
+        <!-- Carousel Items -->
+        <div class="relative h-64 overflow-hidden rounded-2xl">
+  
+          <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <div class="bg-white rounded-2xl shadow p-6 flex flex-col justify-center h-full">
+              <div class="flex items-center mb-4">
+                <img class="w-12 h-12 rounded-full mr-3" 
+                     src="https://randomuser.me/api/portraits/men/32.jpg" 
+                     alt="Client 1">
+                <div>
+                  <h3 class="text-lg font-semibold text-gray-800">James Okoro</h3>
+                  <p class="text-sm text-gray-500">Business Owner</p>
+                </div>
+              </div>
+              <p class="text-gray-600 leading-relaxed">
+                “The website design exceeded my expectations. Clean, modern, and easy for my customers to use. Highly recommended!”
+              </p>
+            </div>
+          </div>
+  
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <div class="bg-white rounded-2xl shadow p-6 flex flex-col justify-center h-full">
+              <div class="flex items-center mb-4">
+                <img class="w-12 h-12 rounded-full mr-3" 
+                     src="https://randomuser.me/api/portraits/women/44.jpg" 
+                     alt="Client 2">
+                <div>
+                  <h3 class="text-lg font-semibold text-gray-800">Amaka Johnson</h3>
+                  <p class="text-sm text-gray-500">Student</p>
+                </div>
+              </div>
+              <p class="text-gray-600 leading-relaxed">
+                “The computer training classes were interactive and practical. I gained real skills I now use in my job.”
+              </p>
+            </div>
+          </div>
+  
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <div class="bg-white rounded-2xl shadow p-6 flex flex-col justify-center h-full">
+              <div class="flex items-center mb-4">
+                <img class="w-12 h-12 rounded-full mr-3" 
+                     src="https://randomuser.me/api/portraits/men/55.jpg" 
+                     alt="Client 3">
+                <div>
+                  <h3 class="text-lg font-semibold text-gray-800">Samuel Lee</h3>
+                  <p class="text-sm text-gray-500">App Client</p>
+                </div>
+              </div>
+              <p class="text-gray-600 leading-relaxed">
+                “The app development service was smooth and professional. The final product is fast, reliable, and user-friendly.”
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Slider Controls -->
+        <button type="button" class="absolute top-1/2 left-0 z-30 flex items-center justify-center h-10 w-10 -translate-y-1/2 bg-white rounded-full shadow" data-carousel-prev>
+          ‹
+        </button>
+        <button type="button" class="absolute top-1/2 right-0 z-30 flex items-center justify-center h-10 w-10 -translate-y-1/2 bg-white rounded-full shadow" data-carousel-next>
+          ›
+        </button>
+      </div>
+    </div>
+  </section>
+
+ 
+    
+
+<!-- ,,,,,,,,,,,,,,,,,,,,,,,, footer ,,,,,,,,,,,,,,,,,,,,,, -->
+
+<section class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-gray-900 text-center mb-12">Contact Us</h2>
+  
+      <div class="flex flex-col md:flex-row gap-10">
+        
+        <!-- Left Section: Contact Info -->
+        <div class="flex-1 bg-gray-800  shadow-lg rounded-xl p-6 space-y-4">
+          <h3 class="text-xl font-semibold text-white mb-4">Get in Touch</h3>
+          <p class="flex items-center gap-3 text-white">
+            <i class="fas fa-phone text-blue-600"></i> +234 913 743 8813
+          </p>
+          <p class="flex items-center gap-3 text-white">
+            <i class="fab fa-telegram text-blue-500"></i> @yourtelegram
+          </p>
+          <p class="flex items-center gap-3 text-white">
+            <i class="fab fa-linkedin text-blue-700"></i> linkedin.com/in/yourprofile
+          </p>
+        </div>
+  
+        <!-- Right Section: Contact Form -->
+        <div class="flex-1 bg-gray-800 shadow-lg rounded-xl p-6">
+          <form class="space-y-4">
+            <div>
+              <label class="block text-sm font-medium text-white mb-1">Your Name</label>
+              <input type="text" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" required>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-white mb-1">Your Email</label>
+              <input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" required>
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-white mb-1">Your Message</label>
+              <textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" required></textarea>
+            </div>
+            <button type="submit" class="w-full bg-gray-600 text-black px-6 py-3 rounded-lg hover:bg-white shadow">
+              Send Message
+            </button>
+          </form>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  <!-- ,,,,,,,,,,,,,,,,,,,,,,,,,,,, last ,,,,,,,,,,,,,,,,,,,,, -->
+  
+  
+  
+  <footer class="w-full bg-gray-800 py-16">
+    <div class="w-full  mx-auto p-4 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                <span class="self-center text-10 font-semibold whitespace-nowrap dark:text-white">Emmanuel'sDigitalTechnology</span>
+            </a>
+            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                <li>
+                    <a href="index.html" class="hover:underline me-4 md:me-6">Home</a>
+                </li>
+                <li>
+                    <a href="about.html" class="hover:underline me-4 md:me-6">About</a>
+                </li>
+                <li>
+                    <a href="services.html" class="hover:underline me-4 md:me-6">Services</a>
+                </li>
+                <li>
+                    <a href="portfolio.html" class="hover:underline me-4 md:me-6">Porfolio</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="hover:underline">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="https://flowbite.com/" class="hover:underline">Emmanuel'sDigitalTechnology</a>. All Rights Reserved.</span>
+    </div>
+  </footer>
+  
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/2349137438813" target="_blank" 
+       class="fixed bottom-6 right-6 flex items-center gap-2 bg-green-500 text-white px-4 py-3 rounded-full  shadow-lg hover:bg-green-600 transition-all">
+      <i class="fab fa-whatsapp text-2xl w-full"></i>
+      <span class="hidden sm:inline font-medium">Chat with us</span>
+    </a>
+  
+  
+  
+  
+  
+      <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
+       <!-- AOS Init -->
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true,
+    });
+  </script>
+  
+  </body>
+  </html>
